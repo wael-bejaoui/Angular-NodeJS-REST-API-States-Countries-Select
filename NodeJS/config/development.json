@@ -1,0 +1,9 @@
+{
+    "name": " APP GLSI-2-B-Dev",
+    "mail": {
+        "host":"mail@service.mail.test.org",
+        "port":443,
+        "servor in":"serv_in"
+        
+    }
+}

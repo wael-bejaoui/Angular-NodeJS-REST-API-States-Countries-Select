@@ -1,0 +1,12 @@
+<h4>liste des pays  :</h4>
+<mat-form-field>
+  <mat-label>Countries</mat-label>
+  <mat-select [(ngModel)]="SelectedCountry" (ngModelChange)='OnSelect($event)'>
+    <mat-option *ngFor="let el of countries" [value]="el.id">
+      {{el.name}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+{{element}}
+
+
